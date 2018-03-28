@@ -194,7 +194,7 @@ class CAuth(QtWidgets.QMainWindow):
         self.con_server()
 
     def con_server(self):
-        self.address = ('127.0.0.1',7777)
+        self.address = ('127.0.0.1',9999)
         # self.port = 7777
         # address = (self.address, self.port)
 

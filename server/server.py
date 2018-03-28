@@ -34,7 +34,7 @@ class Server:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-a", type=str, default="127.0.0.1", help="our_ip")
-    parser.add_argument("-p", type=int, default=7777, help="our_port")
+    parser.add_argument("-p", type=int, default=9999, help="our_port")
     args = parser.parse_args()
     address = (args.a, args.p)
     server = Server()
